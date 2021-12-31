@@ -8,3 +8,5 @@ HTML - Hypertext markup language
 Markup - In computer text processing, a markup language is metadata for annotating a document
 Video 03:
 P Tag - Paragraph Tag
+B Tag - Bold font style Tag
+I Tag - italic font style
