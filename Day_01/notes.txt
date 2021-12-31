@@ -13,3 +13,7 @@ I Tag - italic font style
 Video 04:
 Heading Tag - h1, h2, h3, h4, h5, h6
 Alternative of “b tag” is “<strong> </strong>
+Video 05:
+Anchor Tag - a href
+Video 06:
+Img Tag & alt
