@@ -22,3 +22,8 @@ Order list ol
 Unordered list ul
 Video 08:
 Input types
+Div Tag - <div> </div>
+Small tag
+Br tag
+Video 09:
+Html Structure, Head, Body, Title, Link, Meta Tag
