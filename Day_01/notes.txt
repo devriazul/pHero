@@ -10,3 +10,6 @@ Video 03:
 P Tag - Paragraph Tag
 B Tag - Bold font style Tag
 I Tag - italic font style
+Video 04:
+Heading Tag - h1, h2, h3, h4, h5, h6
+Alternative of “b tag” is “<strong> </strong>
