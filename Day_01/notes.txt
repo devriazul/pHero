@@ -4,3 +4,7 @@ Video 01:
 File extension must be .html
 How to create Google docs
 Video 02:
+HTML - Hypertext markup language
+Markup - In computer text processing, a markup language is metadata for annotating a document
+Video 03:
+P Tag - Paragraph Tag
