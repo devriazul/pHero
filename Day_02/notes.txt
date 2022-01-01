@@ -7,11 +7,30 @@ Style CSS & CSS Property
 
 Video 03:
 Background-Color, Height, Width, Font, CSS Measuring Units
+
+
 Video 04: 
 CSS Id, Class, Apply Styles To Multiple Elements, Id Vs Class
+
+
 Video 05:
 2-5 Style A Group Of Elements, Style A Small Portion Of Text
+
+
 Video 05:
 Border, Border Radius, Margin, Different Ways To Set Margin
+
+
 Video 06:
  Padding, Different Ways To Set Padding, CSS Box Model
+
+
+Video 07:
+CSS box model
+
+Video 08:
+Text Align, Display, Inline, Block, Inline-Block
+Video 09:
+External CSS 
+Display: inline
+Display block, transfer same line to br as br tag working
