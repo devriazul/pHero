@@ -11,3 +11,5 @@ Video 04:
 CSS Id, Class, Apply Styles To Multiple Elements, Id Vs Class
 Video 05:
 2-5 Style A Group Of Elements, Style A Small Portion Of Text
+Video 05:
+Border, Border Radius, Margin, Different Ways To Set Margin
