@@ -9,4 +9,5 @@ Video 03:
 Background-Color, Height, Width, Font, CSS Measuring Units
 Video 04: 
 CSS Id, Class, Apply Styles To Multiple Elements, Id Vs Class
-
+Video 05:
+2-5 Style A Group Of Elements, Style A Small Portion Of Text
