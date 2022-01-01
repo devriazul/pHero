@@ -1,1 +1,12 @@
-====  Day 02 =====
+Video 01:
+
+CSS Internal/Embedded or external css and inline
+
+Video 02:
+Style CSS & CSS Property
+
+Video 03:
+Background-Color, Height, Width, Font, CSS Measuring Units
+Video 04: 
+CSS Id, Class, Apply Styles To Multiple Elements, Id Vs Class
+
