@@ -1,0 +1,24 @@
+.card{
+    background-color: blueviolet;
+    border: 10px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+    
+}
+h1{
+    color: lightcyan;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color: green;
+}
+p{
+    color: grey;
+    text-align: justify;
+}
+small{
+    color: red;
+}
