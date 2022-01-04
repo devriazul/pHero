@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    color: green;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.left-side{
+
+}
+.right-side{
+
+}
+.photo img{
+    width: 300px;
+}
