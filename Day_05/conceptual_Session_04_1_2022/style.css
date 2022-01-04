@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .green{
     width: 400px;
     background-color: green;
