@@ -26,6 +26,24 @@ body{
     border-radius: 5px;
     border:none;
 }
+.second-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .dhaka {
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+  }
+  .div-img img {
+    width: 100%;
+  }
+  .all-divisions {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
 .details-btn:hover{
     padding: 10px 30px;
     background-image: linear-gradient(90deg,red,green,red);
