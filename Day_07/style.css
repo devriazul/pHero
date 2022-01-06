@@ -9,6 +9,9 @@ div{
 a{
     display: block;
 }
+a:visited{
+    color: brown;
+}
 span{
     background-color: brown;
     padding: 20px;
