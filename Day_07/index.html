@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>z-index items</title>
+    <style>
+        ol li:first-child{
+            font-size: 30px;
+            color: coral;
+            }
+        ul li:last-child{
+                font-size: 30px;
+                color: cornflowerblue;
+            }
+        ul p:nth-child(2n){
+            color: red;
+            font-size: 30px;
+        }
+    </style>
 </head>
 <body>
     <h3>First Child</h3>
@@ -26,6 +40,16 @@
         <li>Sharif</li>
         <li>Hridoy</li>
         <li>Selim</li>
+    </ul>
+<br>
+    <h3>nth Child which is (2n)</h3>
+    <ul>
+        <p>Rubel</p>
+        <p>Riaz</p>
+        <p>Mahfuj</p>
+        <p>Sharif</p>
+        <p>Hridoy</p>
+        <p>Selim</p>
     </ul>
 </body>
 </html>
