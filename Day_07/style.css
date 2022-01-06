@@ -1,0 +1,8 @@
+ol li:first-child{
+    font-size: 30px;
+    color: coral;
+}
+ul li:last-child{
+    font-size: 30px;
+    color: cornflowerblue;
+}
