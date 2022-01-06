@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+/* Section Header Start */
+
+#section-header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+.header-content-area{
+    width: 60%;
+    margin: 100px;
+}
+.special-font{
+    font-family: 'Yeseva One', cursive;
+    border-left: 5px solid #FF5959;
+    margin-bottom: 50px;
+}
+.special-font h1{
+    font-size: 40px;
+    margin-left:20px;
+}
+.special-color{
+    color: #FF5959;
+}
+.header-image-area{
+    width: 40%;
+}
+.header-image-area img{
+    width: 400px;
+}
+.header-content-button{
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.header-content-button:hover{
+    background-color: red;
+    transition: .8s;
+}
+
+/* Section Feature Start */
+
+#section-feature h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 100px;
+}
+.feature img{
+    width: 150px;
+}
+.mission{
+    background-color: #EDF5F6;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+}
+.vision{
+    background-color: #FFEEEE;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.goals{
+    background-color: #FFF4D6;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Body content started */
+
+#body-content-one{
+    display: flex;
+    margin: 50px;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15%;
+}
+#body-content-two{
+    display: flex;
+    margin: 50px;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 15%;
+}
+.body-content-text{
+    width: 60%;
+    padding: 5%;
+}
+.body-content-image{
+    width: 40%;
+    padding: 5%;
+}
+.body-content-image img{
+    width: 100%;
+}
+.body-content-button{
+    padding: 10px 30px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.body-content-button:hover{
+    background-color: red;
+    transition: .8s;
+}
+
+/* Contact Form Started */
+
+#section-contact{
+    text-align: center;
+}
+.form-area{
+    margin: 5% 30%;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 2px 2px lightgrey;
+    background-image: url(images/message.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 15%;
+}
+.input-form{
+    padding: 10px;
+    border: 1px solid lightpink;
+    border-radius: 4px;
+    width: 60%;
+}
+.input-form-text-area{
+    padding: 30px 10px;
+    border: 1px solid lightpink;
+    border-radius: 4px;
+    width: 60%;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer h3{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+footer a{
+    text-decoration: none;
+}
