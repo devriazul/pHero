@@ -1,19 +1,5 @@
-h1{
+h1:hover{
     background-color: brown;
-    display: inline;
-}
-div{
-    background-color: green;
-    width: 300px;
-}
-a{
-    display: block;
-}
-a:visited{
-    color: brown;
-}
-span{
-    background-color: brown;
-    padding: 20px;
-    display: block;
+    font-size: 50px;
+    color: burlywood;
 }
