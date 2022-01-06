@@ -1,9 +1,18 @@
-.swimming div{
+.swimming {
+    position: relative;
+}
+.swimming div {
     border: 1px dashed green;
     width: 200px;
+   
 }
-#ring{
-    position: relative;
-    left: 30px;
-    top: -40px;
+#ring {
+    position: sticky;
+    left: 0px;
+    top: 0px;
+}
+.dummy {
+    height: 150px;
+    width: 200px;
+    background-color: green;
 }
