@@ -6,7 +6,6 @@ nav li{
     margin-right: 10px;
     background-color: orangered;
     padding: 2px 5px;
-    border-radius: 5px;
 }
 nav li:hover{
     background-color: greenyellow;
@@ -20,4 +19,15 @@ nav li a{
 }
 .dropdown{
     display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+.dropdown li{
+    padding: 0;
+    margin: 0;
+    background-color: lawngreen;
+}
+nav > ul > li:hover >ul{
+    display: block;
 }
