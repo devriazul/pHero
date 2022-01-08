@@ -8,4 +8,5 @@
     height: 300px;
     background-color: magenta;
     transition: 3s linear;
+    transform: rotate(180deg);
 }
