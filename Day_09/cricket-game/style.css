@@ -1,3 +1,7 @@
+.field{
+    border: 5px solid black;
+}
 .bat:hover{
     transform: rotate(-60deg);
+    transform-origin: top right;
 }
