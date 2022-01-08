@@ -15,7 +15,7 @@
     border-radius: 25px;
     position: relative;
     left:640px;
-    transition: transform 1s ease-out 0.3s;
+    transition: transform 1s ease-out 0.25s;
 }
 .field:hover .ball{
     transform: translate(800px, -150px);
