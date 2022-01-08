@@ -1,0 +1,12 @@
+.container{
+    background-color: lightblue;
+}
+.container, .inner{
+    width: 150px;
+    height: 150px;
+    border: 2px solid khaki;
+}
+.inner{
+    background-color: lightseagreen;
+    transform: scale(.5);
+}
