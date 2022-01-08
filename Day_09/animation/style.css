@@ -1,0 +1,23 @@
+.stage{
+    width: 500px;
+    height: 300px;
+    background-color: lightseagreen;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50px;
+    animation: sliding 1s ease-in-out .5s infinite alternate;
+    -o-animation-play-state: running;
+    position: relative;
+}
+@keyframes sliding{
+    from{
+        background-color: limegreen;
+        left: 0;
+    }to{
+        background-color: maroon;
+        left: 400px;
+    }
+}
