@@ -8,5 +8,5 @@
 }
 .inner{
     background-color: lightseagreen;
-     transform: scale(.5) rotate(45deg);
+     transform: translate(50px, 50px) scale(.5) rotate(45deg);
 }
