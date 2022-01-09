@@ -8,5 +8,11 @@ body{
 }
 .banner{
     display: flex;
-    height: ;
+    height: 100vh;
+}
+.banner-left{
+    flex: 1;
+}
+.banner-right{
+    flex: 1;
 }
