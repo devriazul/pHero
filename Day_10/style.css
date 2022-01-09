@@ -8,11 +8,20 @@ body{
 }
 .container{
     max-width: 1200px;
-    max-height: ;
+    margin: 0 auto;
 }
 .banner{
     display: flex;
     height: 100vh;
+}
+.banner-title{
+    font-size: 60px;
+    white-space: nowrap;
+    position: relative;
+}
+.banner-title::before{
+    content: 'Programing Hero';
+    position: absolute;
 }
 .banner-left{
     flex: 1;
