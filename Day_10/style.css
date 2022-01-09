@@ -36,6 +36,24 @@ body{
         content: 'Pr|';
     }
 }
+.banner-text{
+    line-height: 2;
+    margin: 20px 0;
+}
+.love-button{
+    outline: 0;
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #22bedd;
+    color: white;
+    border: 4px solid #22bedd;
+    cursor: pointer;
+    transition: .8s ease-in-out;
+}
+.love-button:hover{
+    background-color: transparent;
+    color:#22bedd;
+}
 .banner-left{
     flex: 1;
     display: flex;
