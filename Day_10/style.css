@@ -18,10 +18,23 @@ body{
     font-size: 60px;
     white-space: nowrap;
     position: relative;
+    color: transparent;
 }
 .banner-title::before{
     content: 'Programing Hero';
     position: absolute;
+    top: 0;
+    left: 0;
+    color: #22bedd;
+    animation: typing 3s linear ;
+}
+@keyframes typing{
+    0%{
+        content: 'P|';
+    }
+    4%{
+        content: 'Pr|';
+    }
 }
 .banner-left{
     flex: 1;
