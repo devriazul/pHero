@@ -5,6 +5,9 @@
     grid-gap: 1em;
     height: 700px;
 }
+.day{
+    font-size: 2em;
+}
 .date, .day{
     background-color: gray;
     font-size: 3em;
@@ -13,6 +16,6 @@
     align-items: center;
     border-radius: 5px;
 }
-.other-months{
+.other-months, .day{
     background-color: lightgrey;
 }
