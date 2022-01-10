@@ -1,0 +1,33 @@
+.photo-frame{
+    width: 300px;
+    height: 200px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    position: relative;
+    margin: 15px;
+}
+.photo-frame:hover .photo-details{
+    display: block;
+    background-color: rgba(196, 73, 73, 0.432);
+    color: white;
+
+}
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-details h3 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+.photo-details{
+    display: none;
+    position: absolute;
+    width: 300px;
+    top:0;
+}
