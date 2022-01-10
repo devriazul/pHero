@@ -1,14 +1,16 @@
 .menu-container{
     display: flex;
+    flex-wrap: wrap;
 }
 .food{
     border:3px solid green;
     width: 300px;
+    margin: 10px;
 }
 .food img{
     width: 75%;
 }
-@media (max-width: 700px){
+/* @media (max-width: 700px){
    .food{
     background-color: orange;
     margin-bottom:20px ;
@@ -21,4 +23,4 @@
 @media (min-width: 900px){
     .food{background-color:red;}
     
-}
+} */
