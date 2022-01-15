@@ -1,0 +1,26 @@
+body {
+    border: 2px solid red;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+#box-1 {
+    background-color: chocolate;
+}
+
+#box-2 {
+    background-color: gold;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* top: -300px;
+    left: 300px; */
+}
+
+#box-3 {
+    background-color: green;
+}
