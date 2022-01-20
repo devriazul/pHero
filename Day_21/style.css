@@ -5,3 +5,9 @@
 .category-images {
     width: 100px;
 }
+
+.btn-buynow {
+    padding: 10px 30px;
+    background-color: #ff4b92;
+    color: white;
+}
