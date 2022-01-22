@@ -18,3 +18,12 @@ body {
 .banner {
     height: calc(100vh - 80px);
 }
+
+
+/* .new-design {
+    height: 100vh;
+} */
+
+.stop-waiting {
+    background-image: url(images/background.png);
+}
