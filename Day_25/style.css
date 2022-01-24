@@ -1,11 +1,14 @@
 .first-image img {
     height: 500px;
+    object-fit: cover;
 }
 
 .side-collage img {
     height: 400px;
+    object-fit: cover;
 }
 
 .last-image img {
     height: 100px;
+    object-fit: cover;
 }
