@@ -11,6 +11,7 @@ var divide = price2 / price1;
 // console.log(multiply);
 // console.log(divide);
 
-var price1 = price1 +10;
+// price1 = price1 +10;
+price1 +=10;
 
 console.log(price1);
