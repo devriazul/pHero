@@ -16,4 +16,4 @@ var me2 = 0.3;
 
 var meTotal = me1 + me2;
 
-console.log (meTotal.toFixed);
+console.log (meTotal.toFixed(2));
