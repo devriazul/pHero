@@ -5,7 +5,7 @@ var fullName = fName + ' ' + lName;
 
 console.log(fullName);
 
-var age = "28.3";
+var age = "28.6";
 
 var age1 = parseFloat(age);
 var age2 = parseInt(age);
