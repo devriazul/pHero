@@ -13,6 +13,12 @@ var divide = price2 / price1;
 
 // price1 = price1 +10;
 // price1 -=10;
-price1++
+
+// for adding 1 value
+// price1++ 
+
+// for deduct 1 
+
+price1--;
 
 console.log(price1);
