@@ -6,7 +6,11 @@ var difference = price2 - price1;
 var multiply = price2 * price1;
 var divide = price2 / price1;
 
-console.log(sum);
-console.log(difference);
-console.log(multiply);
-console.log(divide);
+// console.log(sum);
+// console.log(difference);
+// console.log(multiply);
+// console.log(divide);
+
+var newPrice = price1 +10;
+
+console.log(newPrice);
