@@ -3,3 +3,4 @@ var eggPrice = 42;
 
 console.log(onionPrice);
 console.log(eggPrice);
+console.log(onionPrice+eggPrice);
