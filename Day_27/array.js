@@ -6,3 +6,8 @@ var naikas = ['katrina', 'deepika', 'priyanka'];
 
 console.log(naikas[1]);
 
+var oddNumbers = [1, 3, 5, 7];
+var vowels = [a, e, i, o, u];
+
+
+
