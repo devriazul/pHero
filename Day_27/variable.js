@@ -1,0 +1,1 @@
+var watchPrice = 120;
