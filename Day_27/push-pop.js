@@ -8,6 +8,6 @@ lastBench.push('riazul');
 
 console.log(lastBench);
 
-lastBench.pop('riazul');
+lastBench.pop('kalam');
 
 console.log(lastBench);
