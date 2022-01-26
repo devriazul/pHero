@@ -17,3 +17,10 @@ var me2 = 0.3;
 var meTotal = me1 + me2;
 
 console.log (meTotal.toFixed(2));
+console.log(17%5);
+
+
+var num1 = "99.5";
+var num2 = 15;
+
+console.log(num1+num2);
