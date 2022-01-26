@@ -11,7 +11,7 @@ var hasFlat = false;
 // }
 
 
-if (gotJob == true && moneySaved > 30000 && hasFlat == true) {
+if ((gotJob == true && moneySaved > 30000) || hasFlat == true) {
     console.log('Cholo Bia kore feli');
 }else{
     console.log('Tor kopale bia nai');
