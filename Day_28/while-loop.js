@@ -5,5 +5,4 @@ while (roastGiven < 7) {
     console.log('Roast give me, please!');
     roastGiven++
 }
-
 console.log(roastGiven);
