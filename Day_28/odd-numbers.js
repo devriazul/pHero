@@ -7,7 +7,7 @@ var number = 1;
 
 // odd number 
 
-while (number <=20) {
+while (number <=2000) {
     console.log(number);
     number = number+2;
 }
@@ -16,7 +16,7 @@ while (number <=20) {
 
 var number = 0;
 
-while (number <=20) {
+while (number <=2000) {
     console.log(number);
     number = number+2;
 }
