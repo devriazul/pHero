@@ -9,5 +9,18 @@ items.indexOf('paper');
 
 items.push('envelope');
 items.push('watch');
+items.pop();
 
 console.log(items);
+
+// condition 
+
+
+if (items.length >=4) {
+    console.log('you have too many stuff');
+}else if (items.length == 4) {
+    console.log('you have hali desk');
+}
+else{
+    console.log('wow your desk is clean');
+}
