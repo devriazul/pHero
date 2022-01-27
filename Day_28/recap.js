@@ -7,4 +7,7 @@ var isFull = false;
 var items = ['bottle', 'mug', 'paper', 'pen'];
 items.indexOf('paper');
 
+items.push('envelope');
+items.push('watch');
+
 console.log(items);
