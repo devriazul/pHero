@@ -4,3 +4,10 @@ var student1 = {
     id: 1,
     marks: 91
 };
+
+var mobile = {
+    color: "Black",
+    price: 20000,
+    storage: 64,
+    battery: 5000
+};
