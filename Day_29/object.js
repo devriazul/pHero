@@ -3,4 +3,4 @@ var student1 = {
     class: "ten",
     id: 1,
     marks: 91
-}
+};
