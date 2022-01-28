@@ -4,5 +4,6 @@ var computer = {
     storage: "156GB",
     processor: "i5"
 };
+computer.price = 20000;
 var computerPrice = computer.price;
-console.log(computerPrice);
+console.log(computer);
