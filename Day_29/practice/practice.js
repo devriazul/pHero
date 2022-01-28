@@ -11,4 +11,5 @@
 
 var numbers = "10";
 
+console.log(numbers);
 console.log (parseFloat(numbers));
