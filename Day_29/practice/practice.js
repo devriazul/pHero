@@ -19,12 +19,19 @@
 
 // array concept clear session 
 
-var books = ["love story", "Sad story", "science fiction", "recent news", "current news"];
+var books = ['love', 'Sad story', 'science fiction', 'recent news', 'current news'];
 
 // console.log(books);
 
 books[1] = "love story";
 
+books.pop('love');
+console.log(books);
 books.push("Latest news");
 
-console.log(books);
+
+var lastBench = ['kalam', 'salam', 'balam'];
+console.log(lastBench);
+
+lastBench.pop('kalam');
+console.log(lastBench);
