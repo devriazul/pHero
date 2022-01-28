@@ -1,10 +1,14 @@
-var fName = "Riazul";
-var lName = "Islam";
+// var fName = "Riazul";
+// var lName = "Islam";
 
-var fullName =fName+' '+lName;
+// var fullName =fName+' '+lName;
 
-console.log(fullName);
+// console.log(fullName);
 
-console.log(fullName.length);
+// console.log(fullName.length);
 
-console.log(typeof fullName);
+// console.log(typeof fullName);
+
+var numbers = "10";
+
+console.log (parseFloat(numbers));
