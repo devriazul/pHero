@@ -5,5 +5,6 @@ var computer = {
     processor: "i5"
 };
 computer.price = 20000;
+computer["price"] = 19000; //alternative way of declare object property for change
 var computerPrice = computer.price;
 console.log(computer);
