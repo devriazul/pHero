@@ -15,10 +15,18 @@
 // }
 
 var numbers = [1, 2, 3, 5, 4, 6, 7];
+// for (var i = 0; i < numbers.length; i++) {
+//     var number = numbers [i];
+//     console.log(number);  
+//     if(number > 5){
+//         break;
+//     }  
+// }
+
 for (var i = 0; i < numbers.length; i++) {
-    var number = numbers [i];
-    console.log(number);  
-    if(number > 5){
-        break;
-    }  
+   var number = numbers[i];
+   if (number > 5){
+       continue;
+   }
+    console.log(number);
 }
