@@ -19,12 +19,35 @@
 
 // array concept clear session 
 
-var books = ['love', 'Sad story', 'science fiction', 'recent news', 'current news'];
+// var books = ['love', 'Sad story', 'science fiction', 'recent news', 'current news'];
 
+// // console.log(books);
+
+// books[1] = "love story";
+
+// books.pop();
 // console.log(books);
+// books.push("Latest news");
 
-books[1] = "love story";
 
-books.pop();
-console.log(books);
-books.push("Latest news");
+// basic while loop 
+
+// var mClass = 0;
+
+// while (mClass < 7) {
+//     console.log("We are student");
+//     mClass++;
+// }
+
+
+// for (var mClasses = 0; mClasses < 7; mClasses++) {
+//     console.log("We are student of for loop");  
+// }
+
+
+var students = ["Ria", "sumu", "labu", "munu", "lovely"];
+
+for (var i = 0; i < students.length; i++) {
+    var elements = students [i];
+    console.log(elements);
+}
