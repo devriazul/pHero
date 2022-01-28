@@ -23,6 +23,8 @@ var books = ["love story", "Sad story", "science fiction", "recent news", "curre
 
 // console.log(books);
 
-books[1] = "Success Story";
+books[1] = "love story";
+
+books.push("Latest news");
 
 console.log(books);
