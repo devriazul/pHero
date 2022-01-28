@@ -25,13 +25,6 @@ var books = ['love', 'Sad story', 'science fiction', 'recent news', 'current new
 
 books[1] = "love story";
 
-books.pop('love');
+books.pop();
 console.log(books);
 books.push("Latest news");
-
-
-var lastBench = ['kalam', 'salam', 'balam'];
-console.log(lastBench);
-
-lastBench.pop('kalam');
-console.log(lastBench);
