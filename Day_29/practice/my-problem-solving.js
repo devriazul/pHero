@@ -4,6 +4,7 @@ if (myBudget >5000){
     console.log("Yes tour dibo");
     var hotelRent = 4000;
     var pocketMoney = myBudget - hotelRent;
+    console.log("My Remaining Money:"+ pocketMoney);
     if(pocketMoney > 2000){
         console.log("Let's start BBQ Party");
     }else{
