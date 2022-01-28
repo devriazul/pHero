@@ -1,0 +1,1 @@
+var favouriteBook = '4 Hour Work Week';
