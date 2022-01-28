@@ -9,15 +9,10 @@
 
 // console.log(typeof fullName);
 
-var numbers = "10";
+var numbers = "10.12";
+var numbers1 = 12.12;
 
 console.log(numbers);
 console.log (parseFloat(numbers));
-
-var age = "28.6";
-
-var age1 = parseFloat(age);
-var age2 = parseInt(age);
-
-console.log(age1);
-console.log(age2);
+console.log (parseInt(numbers));
+console.log(parseInt(numbers1));
