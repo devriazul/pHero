@@ -45,9 +45,9 @@
 // }
 
 
-var students = ["Ria", "sumu", "labu", "munu", "lovely"];
+// var students = ["Ria", "sumu", "labu", "munu", "lovely"];
 
-for (var i = 0; i < students.length; i++) {
-    var elements = students [i];
-    console.log(elements);
-}
+// for (var i = 0; i < students.length; i++) {
+//     var elements = students [i];
+//     console.log(elements);
+// }
