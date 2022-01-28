@@ -1,8 +1,8 @@
 var computer = {
-    color: silver,
+    color: "silver",
     price: 28000,
     storage: "156GB",
     processor: "i5"
 };
-
-console.log(computer.color);
+var computerPrice = computer.price;
+console.log(computerPrice);
