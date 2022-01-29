@@ -39,4 +39,8 @@ function isMoonUp(time){
     }
     return false;
 }
-var moonStatus = isMoonUp();
+var moonStatus = isMoonUp(6);
+
+// let & const variable
+
+
