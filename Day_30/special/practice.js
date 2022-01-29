@@ -50,3 +50,13 @@
     }else{
         console.log("Number three is not big");
     }
+
+    // odd or even number detect 
+
+
+    var riaz = 51;
+    if (riaz % 2 == 0) {
+        console.log("This is an even number");
+    }else{
+        console.log("This is an odd number");
+    }
