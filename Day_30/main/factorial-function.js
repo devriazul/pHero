@@ -16,5 +16,5 @@ var firstFactorial = getFactorial(7);
 console.log('Factorial of 7 is: ', firstFactorial);
 
 
-var firstFactorial = getFactorial(7);
-console.log('Factorial of 7 is: ', firstFactorial);
+var firstFactorial = getFactorial(9);
+console.log('Factorial of 9 is: ', firstFactorial);
