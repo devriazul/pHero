@@ -14,3 +14,7 @@ function getFactorial(number){
 
 var firstFactorial = getFactorial(7);
 console.log('Factorial of 7 is: ', firstFactorial);
+
+
+var firstFactorial = getFactorial(7);
+console.log('Factorial of 7 is: ', firstFactorial);
