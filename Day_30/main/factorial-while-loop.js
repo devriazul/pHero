@@ -5,4 +5,8 @@ function getFactorial (number){
         factorial = factorial * i;
         i++;
     }
+    return factorial;
 }
+
+const myFactorial = getFactorial(6);
+console.log(myFactorial);
