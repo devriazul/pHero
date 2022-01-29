@@ -27,3 +27,6 @@ function mileToKm(miles){
 
 var marathon = mileToKm(26.2);
 console.log(marathon);
+
+
+// video 2 completed
