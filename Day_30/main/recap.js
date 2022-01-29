@@ -33,6 +33,10 @@ for (let i = 0; i < i<= 17; i++) {
 
 // function
 
-function isMoonUp(){
-    return true;
+function isMoonUp(time){
+    if (time >=19 && time <= 5) {
+        return true;
+    }
+    return false;
 }
+var moonStatus = isMoonUp();
