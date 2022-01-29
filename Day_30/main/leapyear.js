@@ -7,5 +7,5 @@ function isLeapYear(year){
 }
 
 const myYear = 2087;
-const isMyYearLeap = isLeapYear(myYear);
-console.log("Is my Year Leap Year", isMyYearLeap);
+const isMyYearLeapYear = isLeapYear(myYear);
+console.log("Is my Year Leap Year", isMyYearLeapYear);
