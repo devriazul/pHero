@@ -14,3 +14,9 @@
     var myName = fName+" "+lName;
 
     console.log(myName);
+
+    // 2. Number Data Type
+    
+
+    var age = 30;
+    var cgpa = 3.21;
