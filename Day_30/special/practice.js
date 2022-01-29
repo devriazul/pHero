@@ -19,4 +19,6 @@
     
 
     var age = 30;
-    var cgpa = 3.21;
+    var cgpa = "3.21";
+    var sum = age + parseFloat(cgpa);
+    console.log(sum);
