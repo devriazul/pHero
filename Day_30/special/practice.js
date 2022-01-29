@@ -11,6 +11,6 @@
     var fName = "Riazul";
     var lName = "Islam";
 
-    var myName = fName+lName;
+    var myName = fName+" "+lName;
 
     console.log(myName);
