@@ -46,3 +46,5 @@ var moonStatus = isMoonUp(6);
 var price = 27;
 price = 29;
 price = 31;
+
+// ========== 1st video done ++++++++++++++
