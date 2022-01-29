@@ -5,16 +5,31 @@
 // const number = 145;
 
 
-function isEven(number){
-    if (number % 2 == 0){
+// function isEven(number){
+//     if (number % 2 == 0){
+//         return true;
+//     }return false;
+// }
+
+// const myNumber = 1641;
+// const isMyNumEven = isEven (myNumber);
+// console.log(isMyNumEven);
+
+// const herNumber =1992;
+// const isHerNumEven = isEven(herNumber);
+// console.log(isHerNumEven);
+
+
+function isOdd(number){
+    if (number % 2 != 0){
         return true;
     }return false;
 }
 
 const myNumber = 1641;
-const isMyNumEven = isEven (myNumber);
-console.log(isMyNumEven);
+const isMyNumOdd = isOdd (myNumber);
+console.log(isMyNumOdd);
 
 const herNumber =1992;
-const isHerNumEven = isEven(herNumber);
-console.log(isHerNumEven);
+const isHerNumOdd = isOdd(herNumber);
+console.log(isHerNumOdd);
