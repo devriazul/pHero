@@ -28,3 +28,13 @@
     var number1 = 60;
     var number2 = 70;
     console.log(number1 == number2);
+
+    // undefined data type
+
+    var rollnumber;
+    console.log(rollnumber);
+
+    // null data type
+
+    var x = null;
+    console.log(x);
