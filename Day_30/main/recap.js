@@ -43,4 +43,6 @@ var moonStatus = isMoonUp(6);
 
 // let & const variable
 
-
+var price = 27;
+price = 29;
+price = 31;
