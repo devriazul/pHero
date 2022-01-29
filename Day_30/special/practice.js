@@ -60,3 +60,10 @@
     }else{
         console.log("This is an odd number");
     }
+
+    // ternary operator
+
+    var hridoy = 28;
+    var selim = 40;
+    var result = (selim > hridoy) ? "Selim is old from hridoy" : "Hridoy is old man from selim";
+    console.log(result);
