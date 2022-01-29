@@ -13,6 +13,8 @@ function isEven(number){
 
 const myNumber = 1641;
 const isMyNumEven = isEven (myNumber);
+console.log(isMyNumEven);
 
 const herNumber =1992;
 const isHerNumEven = isEven(herNumber);
+console.log(isHerNumEven);
