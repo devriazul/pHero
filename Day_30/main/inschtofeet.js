@@ -1,9 +1,17 @@
+function inchToFeet(inch){
+    var feet = inch/12;
+    return feet;
+}
+
 var inches = 132;
-
-var feet = inches/12;
-
+var feet = inchToFeet(inches);
 console.log(feet);
 
-var dadiInches = 144;
-var feet = dadiInches /12;
+
+var inches = 140;
+var feet = inchToFeet(inches);
+console.log(feet);
+
+var inches = 640;
+var feet = inchToFeet(inches);
 console.log(feet);
