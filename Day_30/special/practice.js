@@ -22,3 +22,9 @@
     var cgpa = "3.21";
     var sum = age + parseFloat(cgpa);
     console.log(sum);
+
+    // 3. Boolean Data Type
+
+    var number1 = 60;
+    var number2 = 70;
+    console.log(number1 == number2);
