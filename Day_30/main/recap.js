@@ -17,3 +17,22 @@ if (bookPrice < 120){
 }else{
     console.log(Kichu Discount den);
 }
+
+// Loop
+
+// while loop 
+while (i <= 17) {
+    i++;
+}
+
+// for loop 
+for (let i = 0; i < i<= 17; i++) {
+    const element = array[i];
+    
+}
+
+// function
+
+function isMoonUp(){
+    return true;
+}
