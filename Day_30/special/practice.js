@@ -38,3 +38,15 @@
 
     var x = null;
     console.log(x);
+
+    // if condition
+
+
+    var number3 = 30;
+    var number4 = 50;
+
+    if (number3 < number4) {
+        console.log("Number two is big");
+    }else{
+        console.log("Number two is not big");
+    }
