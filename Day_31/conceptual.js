@@ -16,5 +16,13 @@
 // console.log(pizzaPanda('Pizza',404));
 
 
-var person = "rumon";
+var person = {
+    name : "Riazul Islam",
+    age : 28,
+    height : "5'7",
+    hairColor : "Black"
+}
+
+var rname = "Rumon";
+console.log(rname);
 
