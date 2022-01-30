@@ -1,4 +1,4 @@
-var age = 40;
+var age = 50;
 
 switch(age){
     case 40:
@@ -17,3 +17,4 @@ switch(age){
         console.log("I dont know!");
         break;
 }
+console.log("I am outside of switch case");
