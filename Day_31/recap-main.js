@@ -19,3 +19,7 @@ function inchToFeet(){
 }
 
 // Leap year
+
+function leapYear(){
+
+}
