@@ -1,3 +1,3 @@
 
 
-function myFirstFunction
+function sumOfNumbers ()
