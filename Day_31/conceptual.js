@@ -18,9 +18,3 @@ function message(name){
 
 var name = message ("Riazul");
 console.log(name);
-
-var name = message ("Hridooy");
-console.log(name);
-
-var name = message ("Tohid");
-console.log(name);
