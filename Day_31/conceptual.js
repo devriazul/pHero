@@ -5,4 +5,4 @@ function sumOfNumbers (num1, num2){
     return result;
 }
 
-sumOfNumbers();
+sumOfNumbers(20,9);
