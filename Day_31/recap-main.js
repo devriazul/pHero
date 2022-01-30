@@ -2,4 +2,4 @@
 
 // variable let & const
 
-//
+// array
