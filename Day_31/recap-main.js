@@ -27,3 +27,7 @@ function leapYear(){
 // factorial while & loop
 
 // odd even
+
+// Home Work
+
+// 1. Celcius to farenhight
