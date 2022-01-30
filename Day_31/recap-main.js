@@ -25,3 +25,5 @@ function leapYear(){
 }
 
 // factorial while & loop
+
+// odd even
