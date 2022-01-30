@@ -23,7 +23,7 @@
 
 function pizzaPanda (foodName, quantity){
     var price = 10 * quantity;
-    var customMessage = "Order Successfull! Order Info : " + foodName + ",Price: "+ price + "$";
+    var customMessage = "Order Successfull! Order Info : " + foodName + ", Price: "+ price + "$";
     return customMessage;
 }
 
