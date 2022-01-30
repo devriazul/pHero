@@ -15,6 +15,5 @@ switch(age){
     
     default:
         console.log("I dont know!");
-        break;
 }
 console.log("I am outside of switch case");
