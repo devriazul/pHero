@@ -34,3 +34,5 @@ function leapYear(){
 // 2.  farenhight to Celcius
 // 3. Grade Calculation
 // 4. interest 
+
+// everything will be fine inshaAllah
