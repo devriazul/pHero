@@ -31,3 +31,4 @@ function leapYear(){
 // Home Work
 
 // 1. Celcius to farenhight
+// 1.  farenhight to Celcius
