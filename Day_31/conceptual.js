@@ -11,8 +11,11 @@
 
 //1. Write a simple function that takes name as parameter and then return a custom message.
 
-function message(){
-    var welcomeMessage = "Hello sir, Welcome";
+function message(name){
+    var welcomeMessage = "Hello " + name + " sir, Welcome";
     return welcomeMessage;
 }
-console.log(welcomeMessage);
+
+var name = message ("Riazul");
+
+console.log(name);
