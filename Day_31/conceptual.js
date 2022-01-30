@@ -19,8 +19,12 @@
 // var name = message ("Riazul");
 // console.log(name);
 
-//-- write a function for a food delivery service that sell "pizza" only. this function takes the food name & quantity as parameter and then return a custom message with order info. This function should be smart enought to handle wrong parameter inputs.
+//-- write a function for a food delivery service that sell "pizza" only.Each pizza price $10, this function takes the food name & quantity as parameter and then return a custom message with order info. This function should be smart enought to handle wrong parameter inputs.
 
-function pizzaPanda (){
-    
+function pizzaPanda (foodName, quantity){
+    var price = 10 * quantity;
+    var customMessage = "Order Successfull! Order Info : " + foodName + ",Price: "+ price + "$";
+    return customMessage;
 }
+
+console.log(pizzaPanda('pizza',3));
