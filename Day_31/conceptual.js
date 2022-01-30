@@ -11,10 +11,12 @@
 
 //1. Write a simple function that takes name as parameter and then return a custom message.
 
-function message(name){
-    var welcomeMessage = "Hello " + name + " sir, Welcome to Fast IT Bangladesh";
-    return welcomeMessage;
-}
+// function message(name){
+//     var welcomeMessage = "Hello " + name + " sir, Welcome to Fast IT Bangladesh";
+//     return welcomeMessage;
+// }
 
-var name = message ("Riazul");
-console.log(name);
+// var name = message ("Riazul");
+// console.log(name);
+
+// write a function for foor a food delivery servvice that sell pizza only. this function takes the food name & quantity as parameter and then return a custom message with order info.
