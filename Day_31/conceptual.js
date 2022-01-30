@@ -1,5 +1,5 @@
 function printer(numberLimit){
-    for (let i = 1; i < numberLimit; i++) {
+    for (let i = 1; i < numberLimit +1 ; i++) {
         console.log(i);
     }
 }
