@@ -32,3 +32,4 @@ function leapYear(){
 
 // 1. Celcius to farenhight
 // 1.  farenhight to Celcius
+// Grade Calculation
