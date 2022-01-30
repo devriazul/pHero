@@ -23,6 +23,5 @@ var person = {
     hairColor : "Black"
 }
 
-var rname = "Rumon";
-console.log(rname);
+console.log(person.name);
 
