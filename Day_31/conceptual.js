@@ -10,3 +10,9 @@
 //Problem solving with function
 
 //1. Write a simple function that takes name as parameter and then return a custom message.
+
+function message(){
+    var welcomeMessage = "Hello sir, Welcome";
+    return welcomeMessage;
+}
+console.log(welcomeMessage);
