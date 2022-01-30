@@ -10,4 +10,4 @@ function pizzaPanda (foodName, quantity){
     return customMessage;
 }
 
-console.log(pizzaPanda('Pizza',3));
+console.log(pizzaPanda('Pizza',4));
