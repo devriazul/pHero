@@ -4,4 +4,4 @@
 
 // array
 
-//
+//loop while & for
