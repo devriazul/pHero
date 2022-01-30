@@ -4,6 +4,9 @@ function pizzaPanda (foodName, quantity){
     if (foodName.toLowerCase() !== "pizza") {
         return "Sorry we sell pizza only!";
     }
+    if (quantity >= 10) {
+        return "Sorry! only 10 Pizza Left!";
+    }
 
     var price = 10 * quantity;
     var customMessage = "Order Successfull! Order Info : " + foodName + ", Price: "+ price + "$";
