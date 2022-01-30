@@ -8,6 +8,6 @@
 
 // conditional 
 
-// Function
+// Functionals
 
 // object
