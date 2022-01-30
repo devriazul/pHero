@@ -7,4 +7,4 @@
 
 // console.log(sumOfNumbers(20,9));
 
-//Problem solving
+//Problem solving with function
