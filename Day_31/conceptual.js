@@ -12,7 +12,7 @@
 //1. Write a simple function that takes name as parameter and then return a custom message.
 
 function message(name){
-    var welcomeMessage = "Hello " + name + " sir, Welcome";
+    var welcomeMessage = "Hello " + name + " sir, Welcome to Fast IT Bangladesh";
     return welcomeMessage;
 }
 
