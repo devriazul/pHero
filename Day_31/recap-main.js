@@ -23,3 +23,5 @@ function inchToFeet(){
 function leapYear(){
 
 }
+
+// factorial while & loop
