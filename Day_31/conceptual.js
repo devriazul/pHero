@@ -8,3 +8,5 @@
 // console.log(sumOfNumbers(20,9));
 
 //Problem solving with function
+
+//1. Write a simple function that takes name as parameter and then return a custom message.
