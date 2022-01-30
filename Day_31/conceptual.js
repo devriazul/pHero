@@ -4,7 +4,7 @@ function pizzaPanda (foodName, quantity){
     if (foodName.toLowerCase() != "pizza") {
         return "Sorry we sell pizza only!";
     }
-    if (quantity >= 10) {
+    if (quantity > 10) {
         return "Sorry! only 10 Pizza Left!";
     }
 
