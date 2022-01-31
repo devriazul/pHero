@@ -20,3 +20,6 @@ if (business > minister && business > army) {
 }
 */
 
+var max = Math.max(business, minister, army);
+console.log("Largest is: ", max);
+
