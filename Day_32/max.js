@@ -8,6 +8,9 @@ const army = 350;
 //     console.log("Ministerer pola boroloks");
 // }
 
+ 
+// Compare 3 person
+/*
 if (business > minister && business > army) {
     console.log("Business best");
 }else if (minister > business && minister > army) {
@@ -15,3 +18,5 @@ if (business > minister && business > army) {
 }else {
     console.log("Army bigger");
 }
+*/
+
