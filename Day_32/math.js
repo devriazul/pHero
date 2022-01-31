@@ -10,6 +10,6 @@
 // const myNumber = 2.7;
 // const output = Math.round(myNumber);
 
-const output = Math.random();
+const output = Math.random() * 10;
 
 console.log(output);
