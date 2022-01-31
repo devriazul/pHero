@@ -28,5 +28,5 @@ function fibonacciSeries(num){
     return fibo;
 }
 
-const fiboSeries = fibonacciSeries(13);
+const fiboSeries = fibonacciSeries(1);
 console.log(fiboSeries);
