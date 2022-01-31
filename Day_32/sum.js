@@ -4,6 +4,6 @@ for (let i = 0; i < numbers.length; i++) {
     const element = numbers[i];
     var sum = 0;
     sum = sum + element;
-    console.log(element);
+    // console.log(element);
     
 }
