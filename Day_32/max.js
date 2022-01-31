@@ -1,5 +1,5 @@
 const business = 450;
-const minister = 550;
+const minister = 250;
 const army = 350;
 
 // if (business > minister) {
