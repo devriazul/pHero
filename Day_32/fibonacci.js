@@ -19,6 +19,8 @@ for (let i = 2; i <= 10; i++) {
 console.log(fibo);
 */
 
+
+/*
 function fibonacciSeries(num){
     const fibo = [0, 1];
     for (let i = 2; i <= num; i++) {
@@ -28,5 +30,18 @@ function fibonacciSeries(num){
     return fibo;
 }
 
-const fiboSeries = fibonacciSeries(-15);
+const fiboSeries = fibonacciSeries([5]);
+console.log(fiboSeries);
+*/
+
+function fibonacciSeries(num){
+    const fibo = [0, 1];
+    for (let i = 2; i <= num; i++) {
+        fibo[i]= fibo[i-1]+[i-2];
+        
+    }
+    return fibo;
+}
+
+const fiboSeries = fibonacciSeries([5]);
 console.log(fiboSeries);
