@@ -4,7 +4,10 @@
 // const myNumber = 2.1;
 // const output = Math.ceil(myNumber);
 
+// const myNumber = 2.7;
+// const output = Math.floor(myNumber);
+
 const myNumber = 2.7;
-const output = Math.floor(myNumber);
+const output = Math.round(myNumber);
 
 console.log(output);
