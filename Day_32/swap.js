@@ -3,6 +3,8 @@ var second = 7;
 
 console.log(first, second);
 
+// First Approach
+
 var temp = first;
 first = second;
 second = temp;
