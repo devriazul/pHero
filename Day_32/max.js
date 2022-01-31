@@ -20,6 +20,22 @@ if (business > minister && business > army) {
 }
 */
 
+
+// find the largest by Math
 var max = Math.max(business, minister, army);
 console.log("Largest is: ", max);
+
+
+
+// Find biggest number with function
+function findLargest(first, second){
+    if (first > second) {
+        return first;
+    }else{
+        return second;
+    }
+}
+
+const larger = findLargest (300, 200);
+console.log("Largest is ", larger);
 
