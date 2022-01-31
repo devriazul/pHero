@@ -10,6 +10,13 @@
 // const myNumber = 2.7;
 // const output = Math.round(myNumber);
 
-const output = Math.random() * 6;
-const rounded = Math.round(output);
-console.log(rounded);
+// const output = Math.random() * 6;
+// const rounded = Math.round(output);
+// console.log(rounded);
+
+for (let i = 0; i <= 20; i++) {
+    const output = Math.random() * 6;
+    const rounded = Math.round(output);
+    console.log(rounded);
+    
+}
