@@ -11,5 +11,5 @@
 // const output = Math.round(myNumber);
 
 const output = Math.random() * 10;
-
-console.log(output);
+const rounded = Math.floor(output);
+console.log(rounded);
