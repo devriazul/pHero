@@ -7,7 +7,9 @@
 // const myNumber = 2.7;
 // const output = Math.floor(myNumber);
 
-const myNumber = 2.7;
-const output = Math.round(myNumber);
+// const myNumber = 2.7;
+// const output = Math.round(myNumber);
+
+const output = Math.random();
 
 console.log(output);
