@@ -35,6 +35,12 @@ console.log(fiboSeries);
 */
 
 function fibonacciSeries(num){
+    if (typeof num != 'number') {
+        return "Your input is not correct";
+    }
+    if (num < 2) {
+        return "Please enter here greater then 1";
+    }
     const fibo = [0, 1];
     for (let i = 2; i <= num; i++) {
         fibo[i]= fibo[i-1]+[i-2];
@@ -43,5 +49,5 @@ function fibonacciSeries(num){
     return fibo;
 }
 
-const fiboSeries = fibonacciSeries([5]);
+const fiboSeries = fibonacciSeries(0);
 console.log(fiboSeries);
