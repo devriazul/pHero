@@ -9,7 +9,7 @@ ith = (i-1)th + (i-2)th
 */
 
 const fibo = [0, 1];
-for (let i = 0; i <= 10; i++) {
+for (let i = 2; i <= 10; i++) {
     // nth = (n-1)th + (n-2)th
     // ith = (i-1)th + (i-2)th
 
