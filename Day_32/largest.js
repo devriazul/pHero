@@ -1,6 +1,13 @@
 function largetElement(numbers){
     const largest = 0;
     for (let i = 0; i < numbers.length; i++) {
-        console.log(i);        
+        const element = numbers[i];
+        if (element > largest) {
+            largest = element;
+        }
+        console.log(element);        
     }
 }
+
+const ages = [12, 14, 16, 18, 20];
+const oldest = largetElement(ages);
