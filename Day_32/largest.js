@@ -12,3 +12,5 @@ function largetElement(numbers){
 const ages = [12, 14, 16, 18, 20];
 const oldest = largetElement(ages);
 console.log("oldest: ", oldest);
+
+// find the lowest number in array
