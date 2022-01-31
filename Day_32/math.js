@@ -11,5 +11,5 @@
 // const output = Math.round(myNumber);
 
 const output = Math.random() * 6;
-const rounded = Math.floor(output);
+const rounded = Math.round(output);
 console.log(rounded);
