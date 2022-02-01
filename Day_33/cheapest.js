@@ -22,5 +22,8 @@ const phones = [{
 
 let cheapest = phones [0];
 for (const phone of phones){
-    console.log(phone);
+    if (phone.price < cheapest.price) {
+        cheapest = phone;
+    }
 }
+console.log(cheapest);
