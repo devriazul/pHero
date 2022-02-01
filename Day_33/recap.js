@@ -7,9 +7,8 @@ function largestElement (numbers){
             max = element;
         }
 
-        }
+    }
 }
-
 
 // Smallest number
 function largestElement (numbers){
@@ -20,5 +19,5 @@ function largestElement (numbers){
             min = element;
         }
 
-        }
+    }
 }
