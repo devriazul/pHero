@@ -6,7 +6,6 @@ function removeDuplicate(names){
     //     const element = names[i];
     // }
     for (const element of names){
-        console.log(element);
         if (unique.indexOf(element) == -1) {
             unique.push(element);
         }
