@@ -22,5 +22,5 @@ const phones = [{
 
 let cheapest = phones [0];
 for (const phone of phones){
-    console.log(phones);
+    console.log(phone);
 }
