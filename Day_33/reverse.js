@@ -6,5 +6,5 @@ function reverseString (text){
     }
 }
 
-const reversed = reverseString(reversed);
+const reversed = reverseString(greetings);
 console.log(reversed);
