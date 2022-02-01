@@ -1,1 +1,5 @@
-const names = ['abul', 'kabul', 'babul', 'abul', 'kabul', 'babul']
+const names = ['abul', 'kabul', 'babul', 'abul', 'kabul', 'babul'];
+
+function removeDuplicate(names){
+    
+}
