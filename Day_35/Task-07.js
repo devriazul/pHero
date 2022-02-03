@@ -15,6 +15,6 @@ while (number < 9) {
 }
 
 //Even number by for loop
-// for (let i = 0; i <= 19; i++) {
-//     console.log(i);
-// }
+for (let i = 0; i <= 19; i+=2) {
+    console.log(i);
+}
