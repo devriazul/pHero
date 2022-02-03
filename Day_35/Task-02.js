@@ -3,4 +3,4 @@ let nameOfPerson = "Riazul Islam";
 console.log(genderOfPerson, nameOfPerson);
 
 nameOfPerson = "Mahfujur Rahman";
-console.log(genderOfPerson, nameOfPerson);
+console.log("Gender: ",genderOfPerson,"Name: ", nameOfPerson);
