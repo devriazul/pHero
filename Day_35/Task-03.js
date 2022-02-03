@@ -12,3 +12,6 @@ console.log(sumMultiplication);
 
 let sumDivision = num1 / num2;
 console.log(sumDivision);
+
+let sumDivisible = num1 % num2;
+console.log(sumDivisible);
