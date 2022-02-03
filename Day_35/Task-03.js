@@ -10,5 +10,5 @@ console.log(sumSubstraction);
 let sumMultiplication = num1 * num2;
 console.log(sumMultiplication);
 
-let sumAddition = num1 / num2;
-console.log(sumAddition);
+let sumDivision = num1 / num2;
+console.log(sumDivision);
