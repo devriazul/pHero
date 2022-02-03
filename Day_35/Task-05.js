@@ -1,4 +1,4 @@
-var salary = 10000;
+var salary = 30000;
 var age = 31;
 
 if (salary == 30000 || age <= 30) {
