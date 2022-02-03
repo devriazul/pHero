@@ -5,3 +5,8 @@ while (i >= 19) {
     i++;
 }
 console.log(i);
+
+for (let i = 0; i < 19; i++) {
+    const element = array[i];
+}
+console.log(element);
