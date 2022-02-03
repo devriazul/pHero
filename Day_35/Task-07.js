@@ -1,3 +1,4 @@
+//Odd number by While loop
 var number = 1;
 
 while (number < 9) {
