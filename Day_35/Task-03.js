@@ -7,8 +7,8 @@ console.log(sumAddition);
 let sumSubstraction = num1 - num2;
 console.log(sumSubstraction);
 
-let sumAddition = num1+num2;
-console.log(sumAddition);
+let sumMultiplication = num1 * num2;
+console.log(sumMultiplication);
 
-let sumAddition = num1+num2;
+let sumAddition = num1 / num2;
 console.log(sumAddition);
