@@ -1,4 +1,6 @@
+var i = 0;
+
 while (i >= 19) {
-    i++
+    console.log(i);
+    i++;
 }
-console.log(i);
