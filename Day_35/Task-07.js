@@ -1,6 +1,6 @@
 var i = 0;
 
-while (i < 19) {
+while (i > 6 && i < 19) {
     i++;
     console.log(i);
 }
