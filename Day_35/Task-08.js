@@ -1,0 +1,1 @@
+var riazFriends = ["selim", "hridoy", "Tahid", "Shorif"];
