@@ -5,7 +5,7 @@ while (i < 19) {
     console.log(i);
 }
 
-// for (let i = 0; i < 19; i++) {
-//     const element = [i];
-// }
-// console.log(element);
+for (let i = 0; i < 5; i++) {
+    // const element = array[i];
+    console.log(i);
+}
