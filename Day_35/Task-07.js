@@ -1,6 +1,6 @@
 var number = 0;
 
-while (number < 19) {
+while (number < 9) {
     console.log(number);
     number++;
 }
