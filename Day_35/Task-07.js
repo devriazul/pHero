@@ -1,8 +1,8 @@
-var i = 0;
+var number = 0;
 
-while (i > 6 && i < 19) {
-    i++;
-    console.log(i);
+while (number < 19) {
+    console.log(number);
+    number++;
 }
 
 // for (let i = 0; i <= 19; i++) {
