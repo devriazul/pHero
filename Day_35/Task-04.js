@@ -1,4 +1,4 @@
-var age = 45;
+var age = 50;
 
 if (age < 30) {
     console.log("Perfect age for marrage");
