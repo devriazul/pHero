@@ -19,7 +19,7 @@ for (let i = 0; i <= 19; i+=2) {
     console.log(i);
 }
 
-//Even number by for loop
-for (let i = 0; i <= 19; i+=2) {
+//Odd number by for loop
+for (let i = 1; i <= 19; i+=2) {
     console.log(i);
 }
