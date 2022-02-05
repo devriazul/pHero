@@ -8,10 +8,12 @@ const product = [
 ];
 
 function searchProducts(products, seatchText){
+    const result = [];
     for(const product of products){
         if(product.name.includes(seatchText)){
-            console.log(product.name);
+            result.push(product);
         }
-    }
+    }return result;
 }
-searchProducts(product, 'asus');
+const matched= searchProducts(product, 'asus');
+console.log(matched);
