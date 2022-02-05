@@ -9,7 +9,7 @@ const product = [
 
 function searchProducts(products, seatchText){
     for(const product of products){
-        console.log(product.name);
+        console.log(product.price);
     }
 }
 searchProducts(product);
