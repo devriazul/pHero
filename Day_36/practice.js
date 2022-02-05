@@ -83,27 +83,4 @@ console.log(anaToVori(32));
   // console.log(picnicBudget(201));
   // console.log(picnicBudget(300));
   
-  // 4. function for finding out largest name in the array.
-  function oddFriend(friendList){
-    for(const name of friendList){
-        // take a single item from the array
-        if(typeof(name)==='string'){
-            // when find a string in the array 
-            if(name.length % 2 == 1){
-                //when find a name with odd no of length.
-                return name;
-            }else if(name.length % 2 == 0){
-                // when all element value length is even
-                var even = 'all name length is even value.';
-            }
-        }else{
-            // when found: not a string type value
-            return 'please input a string type array.';
-        }
-    }
-    return even;
-}
-
-// console.log(oddFriend(['Riaz', 'Mahfujur', 'Rubels', 'Hridoy',100]));
-// console.log(oddFriend(['Riaz', 'Mahfuj', 'Rubels', 'Hridoy']));
-// console.log(oddFriend(['Riaz', 'Mahfuju', 'Rubel', 'Hridoy']));
+  
