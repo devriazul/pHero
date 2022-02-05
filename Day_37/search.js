@@ -12,7 +12,6 @@ function searchProducts(products, seatchText){
         if(product.name.includes('asus')){
             console.log(product.name);
         }
-        
     }
 }
 searchProducts(product);
