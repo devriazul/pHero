@@ -1,4 +1,4 @@
-const product = [
+const products = [
     {name: 'iphone', price: '20000'},
     {name: 'samsung', price: '10000'},
     {name: 'lenovo', price: '50000'},
