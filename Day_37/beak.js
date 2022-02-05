@@ -7,5 +7,5 @@ const product = [
     {name: 'asus', price: '35000'},
 ];
 for (const product of products){
-    
+    console.log(product);
 }
