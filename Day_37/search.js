@@ -9,9 +9,9 @@ const product = [
 
 function searchProducts(products, seatchText){
     for(const product of products){
-        if(product.name.includes('asus')){
+        if(product.name.includes(seatchText)){
             console.log(product.name);
         }
     }
 }
-searchProducts(product);
+searchProducts(product, 'asus');
