@@ -6,3 +6,6 @@ const product = [
     {name: 'applewatch', price: '7000'},
     {name: 'asus', price: '35000'},
 ];
+for (const product of products){
+    
+}
