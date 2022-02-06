@@ -17,7 +17,7 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sed aperiam ratione iste enim in at sequi iusto inventore dicta!</p>
             </article>
             <article>
-                <h3>My awesome blog -2</h3>
+                <h3 id="second-title">My awesome blog -2</h3>
                 <p>Natus repellat sequi aut quasi quod ad! Nesciunt nulla doloribus aspernatur! Itaque animi quidem laboriosam asperiores, repellat obcaecati possimus blanditiis.</p>
             </article>
             <article>
@@ -34,12 +34,16 @@
             // console.log(document.body);
         const blogTitles = document.getElementsByTagName('h3');
         for (const h3 of blogTitles) {
-            console.log(h3.innerText);
+            // console.log(h3.innerText);
         }
         const blogDetails = document.getElementsByTagName('p');
         for (const p of blogDetails) {
-            console.log(p.innerText);
+            // console.log(p.innerText);
         }
+
+        const secondTitle = document.getElementById('second-title');
+        secondTitle.style.color = 'red';
+        secondTitle.innerText = 'This is javascript update';
     </script>
 </body>
 
