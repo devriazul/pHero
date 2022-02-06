@@ -12,6 +12,14 @@
     <header>Welcome</header>
     <main>
         <section>
+            <header>
+                <ul id="blog-list">
+                    <li>Blog-1</li>
+                    <li>Blog-2</li>
+                    <li>Blog-3</li>
+                    <li>Blog-4</li>
+                </ul>
+            </header>
             <article class="blog">
                 <h3>My awesome blog -1</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sed aperiam ratione iste enim in at sequi iusto inventore dicta!</p>
@@ -54,6 +62,13 @@
             blog.style.margin = '10px';
             blog.style.padding = '10px';
         }
+
+        // create an element
+
+        const li = document.createElement('li');
+        li.innerText = "Blog-5";
+        const ul = document.getElementById('blog-list');
+        ul.appendChild(li);
     </script>
 </body>
 
