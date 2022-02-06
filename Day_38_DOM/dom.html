@@ -12,15 +12,15 @@
     <header>Welcome</header>
     <main>
         <section>
-            <article>
+            <article class="blog">
                 <h3>My awesome blog -1</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sed aperiam ratione iste enim in at sequi iusto inventore dicta!</p>
             </article>
-            <article>
+            <article class="blog">
                 <h3 id="second-title">My awesome blog -2</h3>
                 <p>Natus repellat sequi aut quasi quod ad! Nesciunt nulla doloribus aspernatur! Itaque animi quidem laboriosam asperiores, repellat obcaecati possimus blanditiis.</p>
             </article>
-            <article>
+            <article class="blog">
                 <h3>My awesome blog -3</h3>
                 <p>Ratione ab itaque numquam saepe assumenda. Deserunt aliquid minima blanditiis commodi eveniet soluta asperiores. Commodi fugiat dignissimos sunt beatae natus.</p>
             </article>
@@ -41,9 +41,19 @@
             // console.log(p.innerText);
         }
 
+        // get element by ID
         const secondTitle = document.getElementById('second-title');
         secondTitle.style.color = 'red';
         secondTitle.innerText = 'This is javascript update';
+
+        //get elements by className
+        const blogs = document.getElementsByClassName('blog')
+        for (const blog of blogs) {
+            blog.style.border = '2px solid orange';
+            blog.style.borderRadius = '10px';
+            blog.style.margin = '10px';
+            blog.style.padding = '10px';
+        }
     </script>
 </body>
 
