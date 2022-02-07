@@ -10,4 +10,6 @@ function makeYellow(){
 }
 
 const greenButton = document.getElementById('make-green');
-console.log(greenButton);
+greenButton.onclick = function makeGreen(){
+    document.body.style.backgroundColor = 'green';
+}
