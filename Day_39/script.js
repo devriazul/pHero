@@ -29,3 +29,7 @@ const hotPink = document.getElementById('make-hotpink');
 hotPink.addEventListener('click', function(){
     document.body.style.backgroundColor = 'pink';
 })
+
+document.getElementById('light-blue').addEventListener('click',function(){
+    document.body.style.backgroundColor = 'lightblue';
+})
