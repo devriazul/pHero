@@ -9,7 +9,27 @@
 </head>
 
 <body>
+    <h2>More event</h2>
+    <section>
+        <h3 id="secret-info">Secret info</h3>
+        <input id="delete-confirm" type="text" placeholder="please type delete">
+        <button id="delete-btn" disabled>Delete</button>
+    </section>
 
+    <script>
+        document.getElementById('delete-btn').addEventListener('click', function() {
+            document.getElementById('secret-info').style.display = 'none';
+        })
+        document.getElementById('delete-confirm').addEventListener('focus', function() {
+            document.body.style.backgroundColor = 'lightcoral';
+        })
+        document.getElementById('delete-confirm').addEventListener('blur', function() {
+            document.body.style.backgroundColor = 'white';
+        })
+        document.getElementById('delete-confirm').addEventListener('keydown', function() {
+            // document.body.style.backgroundColor = 'white';
+        })
+    </script>
 </body>
 
 </html>
