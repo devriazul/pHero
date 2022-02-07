@@ -10,6 +10,8 @@
 
 <body>
     <p id="clicking-method"></p>
+    <input id="name-input" type="text">
+    <button id="update-name">Update</button>
     <button onclick="handleJustFunctionClick()">Just Function</button>
     <button id="handleClickEvent">Direct AddEvent Listner</button>
 
@@ -24,6 +26,14 @@
         document.getElementById('handleClickEvent').addEventListener('click', function() {
             const clcikingMethod = document.getElementById('clicking-method');
             clcikingMethod.innerText = 'Riazul Islam';
+        })
+
+        //Direct another
+        document.getElementById('update-name').addEventListener('click', function() {
+            const nameField = document.getElementById('clicking-mthod');
+
+            const p = getElementById('name-input');
+            p.innerText = nameField.value;
         })
     </script>
 </body>
