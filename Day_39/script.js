@@ -8,3 +8,6 @@ yellowButton.onclick = makeYellow;
 function makeYellow(){
     document.body.style.backgroundColor = 'yellow';
 }
+
+const greenButton = document.getElementById('make-green');
+console.log(greenButton);
