@@ -29,6 +29,10 @@
             // 2. Get user comment
             const commentbox = document.getElementById('new-comment');
             const userComment = commentbox.value;
+
+            // 3. create comment paragraph 
+            const p = document.createElement('p');
+            p.innerText = commentbox.value;
         })
     </script>
 
