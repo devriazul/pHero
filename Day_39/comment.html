@@ -31,8 +31,13 @@
             const userComment = commentbox.value;
 
             // 3. create comment paragraph 
-            const p = document.createElement('p');
-            p.innerText = commentbox.value;
+            const newComment = document.createElement('p');
+            newComment.innerText = commentbox.value;
+
+            // 4. append as child
+
+            const commentContainer = document.getElementById('comment');
+            commentContainer.append(newComment);
         })
     </script>
 
