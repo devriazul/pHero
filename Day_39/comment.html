@@ -17,14 +17,18 @@
             <p>Quidem, aut adipisci?</p>
         </div>
         <div>
-            <textarea name="" id="" cols="30" rows="5"></textarea><br>
+            <textarea name="" id="new-comment" cols="30" rows="5"></textarea><br>
             <button id="submit-comment">Post</button>
         </div>
     </section>
 
     <script>
+        // 1. add button event handler
         document.getElementById('submit-comment').addEventListener('click', function() {
-
+            // console.log('clicked');
+            // 2. Get user comment
+            const commentbox = document.getElementById('new-comment');
+            const userComment = commentbox.value;
         })
     </script>
 
