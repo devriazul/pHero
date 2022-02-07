@@ -15,3 +15,17 @@ const greenButton = document.getElementById('make-green');
 greenButton.onclick = function makeGreen(){
     document.body.style.backgroundColor = 'green';
 }
+
+//
+
+const goldenButton = document.getElementById('make-goldenrod');
+goldenButton.addEventListener('click',makeGoldenRod);
+
+function makeGoldenRod(){
+    document.body.style.backgroundColor = 'gold';
+}
+
+const hotPink = document.getElementById('make-hotpink');
+hotPink.addEventListener('click', function(){
+    document.body.style.backgroundColor = 'pink';
+})
