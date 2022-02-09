@@ -29,4 +29,25 @@ document.getElementById('deposit-button').addEventListener('click', function(){
     depositInput.value = '';
 });
 
+//handle withdraw
+
+document.getElementById('withdraw-button').addEventListener('click',function(){
+    const withdrawInput = document.getElementById('withdraw-input');
+    const withDrawAmountText = withdrawInput.value;
+    const newWithdrawAmount = parseFloat(withDrawAmountText);
+
+
+    // set withdraw total 
+    const withdrawTotal = document.getElementById('withdraw-total');
+    const previusWithdrawText = withdrawTotal.innerText;
+    const previusWithdrawTotal = parseFloat(previusWithdrawText);
+
+    const newWithdrawTotal = previusWithdrawTotal + newWithdrawAmount;
+
+    withdrawTotal.innerText = newWithdrawTotal
+
+    // Value 0 making
+    withdrawInput.value = '';
+})
+
 
