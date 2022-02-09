@@ -7,7 +7,7 @@ document.getElementById('login-submit').addEventListener('click',function(){
     const userPassword = passwordField.value;
 
     if(userEmail == 'sontan@gmail.com' && userPassword == 'secret'){
-        console.log('Valid User');
+        window.location.href = 'banking.html';
     }else{
         console.log("False information");
     }
