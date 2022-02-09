@@ -5,4 +5,8 @@ document.getElementById('login-submit').addEventListener('click',function(){
 
     const passwordField = document.getElementById('user-password');
     const userPassword = passwordField.value;
+
+    if(userEmail == 'sontan@gmail.com' && userPassword == 'secrect'){
+        console.log('Valid User');
+    }
 })
