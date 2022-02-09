@@ -24,6 +24,8 @@ document.getElementById('deposit-button').addEventListener('click', function(){
     const newBalanceTotal = previusBalanceTotal + newDepositAmount;
     balanceTotal.innerText = newBalanceTotal;
 
+
+// Value 0 making
     depositInput.value = '';
 });
 
