@@ -46,8 +46,15 @@ document.getElementById('withdraw-button').addEventListener('click',function(){
 
     withdrawTotal.innerText = newWithdrawTotal
 
+    //update balance
+    const balanceTotal = document.getElementById('balance-total');
+    const previusBalanceText = balanceTotal.innerText;
+    const previusBalanceTotal = parseFloat(previusBalanceText);
+    const newBalanceTotal = previusBalanceTotal - newWithdrawAmount;
+
+    balanceTotal.innerText = newBalanceTotal;
     // Value 0 making
     withdrawInput.value = '';
-})
+});
 
 
