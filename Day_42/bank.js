@@ -1,7 +1,8 @@
 document.getElementById('deposit-button').addEventListener('click', function(){
     const depositInput = document.getElementById('deposit-input');
 
-    const depositAmount = depositInput.value;
+    const depositAmountText = depositInput.value;
+    const depositAmount = parseFloat(depositAmountText);
     // console.log(depositAmount);
 
     // get current deposit
@@ -9,7 +10,8 @@ document.getElementById('deposit-button').addEventListener('click', function(){
     const depositTotal = document.getElementById('deposit-total');
 
     const depositTotalText = depositTotal.innerText;
-    depositTotal.innerText = parseFloat (depositTotalText) + parseFloat (depositAmount);
+    const previusDepositTotal = parseFloat(depositTotalText);
+    depositTotal.innerText = previusDepositTotal + depositAmount;
     // console.log(depositTotalText);
 
 
