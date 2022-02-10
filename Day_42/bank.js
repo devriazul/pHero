@@ -9,7 +9,7 @@ document.getElementById('deposit-button').addEventListener('click', function(){
     const depositTotal = document.getElementById('deposit-total');
 
     const depositTotalText = depositTotal.innerText;
-    depositTotal.innerText = parseFloat (depositTotalText) + depositAmount;
+    depositTotal.innerText = parseFloat (depositTotalText) + parseFloat (depositAmount);
     // console.log(depositTotalText);
 
 
