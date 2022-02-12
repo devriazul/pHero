@@ -36,6 +36,13 @@ document.getElementById('withdraw-button').addEventListener('click', function(){
    const preWithdrawTotal = parseFloat(preWithdrawTotalText);
    withdrawTotal.innerText = preWithdrawTotal + withdrawAmount;
 
+   // update balance after withdraw
+
+   const balanceTotal = document.getElementById('balance-total');
+   const balanceTotalText = balanceTotal.innerText;
+   const previusBalanceTotal = parseFloat(balanceTotalText);
+   balanceTotal.innerText = previusBalanceTotal - withdrawAmount;
+
    //clear withdraw input
 
    withdrawInput.value = '';
