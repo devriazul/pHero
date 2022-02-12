@@ -3,7 +3,7 @@ function updateCaseNumber(isIncreasing){
     const caseNumber = caseInput.value;
     if (isIncreasing == true){
         caseInput.value =parseInt (caseNumber) +1;
-    }else{
+    }else if(caseNumber > 0){
         caseInput.value = parseInt(caseNumber) -1;
     }
 }
