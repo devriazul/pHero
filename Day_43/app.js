@@ -11,7 +11,12 @@ function updateCaseNumber(isIncreasing){
     const caseTotal = document.getElementById('case-total');
     caseTotal.innerText = caseNumber * 59;
 }
+// phone increase decrease
+document.getElementById('phone-plus').addEventListener('click', function(){
+    updatePhoneNumber(true);
+});
 
+// handle case increase decrease
 document.getElementById('case-plus').addEventListener('click', function(){
     updateCaseNumber(true);
 });
