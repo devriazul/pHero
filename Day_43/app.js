@@ -11,6 +11,12 @@ function updateProductNumber(product, price, isIncreasing){
     const productTotal = document.getElementById(product +'-total');
     productTotal.innerText = productNumber * price;
 }
+
+// Total calculate
+
+function calculateTotal(){
+    
+}
 // phone increase decrease
 document.getElementById('phone-plus').addEventListener('click', function(){
     updateProductNumber('phone',1219, true);
@@ -27,3 +33,4 @@ document.getElementById('case-minus').addEventListener('click', function(){
     updateProductNumber('case',59, false);
     
 });
+
