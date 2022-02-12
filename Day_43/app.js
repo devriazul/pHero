@@ -26,4 +26,4 @@ document.getElementById('case-plus').addEventListener('click', function(){
 document.getElementById('case-minus').addEventListener('click', function(){
     updateProductNumber('case',59, false);
     
-})
+});
