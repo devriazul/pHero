@@ -1,1 +1,3 @@
-console.log('I am in a separate file')
+document.getElementById('case-plus').addEventListener('click', function(){
+    console.log('ok and + worked');
+})
