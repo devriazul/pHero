@@ -11,11 +11,17 @@ const searching = 'laptop';
 
 // indexOf
 
-// const output = [];
-// for (const product of products){
-//     if(product.toLowerCase().indexOf(searching.toLowerCase()) != -1){
-//         output.push(product);
-//     }
-// }
+const output = [];
+for (const product of products){
+    if(product.toLowerCase().indexOf(searching.toLowerCase()) != -1){
+        // output.push(product);
+    }
+}
 // console.log(output);
 
+for (const product of products){
+    if(product.toLowerCase().includes(searching.toLowerCase())){
+        output.push(product);
+    }
+}
+console.log(output);
