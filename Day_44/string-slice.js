@@ -18,4 +18,11 @@ console.log(anotherAnotherPart);
 // concat string always immutable
 const first = 'amader';
 const second = 'city';
-const fullString = first + second;
+
+// const fullString = first + second;
+const fullString = first.concat(second);
+console.log(fullString);
+
+const words2 = ['a', 'b', 'c'];
+const allJoined = words.join('');
+console.log(allJoined);
