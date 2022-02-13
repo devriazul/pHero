@@ -2,7 +2,7 @@ function megaFriend(friends){
     let mega = friends[0];
     for(const friend of friends){
         if(friend.length > mega.length){
-            mega.friend;
+            mega = friend;
         }
     }return mega;
 }
