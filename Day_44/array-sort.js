@@ -9,4 +9,9 @@ const friends = ['asiq', 'kabil', 'josim', 'rubel', 'hasin', 'badsha'];
 // reverse sorting
 
 const sortReverseFriend = friends.sort().reverse();
-console.log(sortReverseFriend);
+// console.log(sortReverseFriend);
+
+// number sorting fun
+const bigNumbers = [10, 20 ,2 , 5, 7, 99, 211];
+const sortBigNumbers = bigNumbers.sort();
+console.log(sortBigNumbers);
