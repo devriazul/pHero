@@ -4,8 +4,15 @@ const products = [
     'yellow laptop with black camera',
     '1X59 Lenovo commercial Yoga Laptop',
     'HTC Low Price Phone',
-    'Purple color phone'
+    'Purple color phone and laptop'
 ]
 
 const searching = 'laptop';
 // indexOf
+const output = [];
+for (const product of products){
+    if(product.toLowerCase().indexOf(searching) != -1){
+        output.push(product);
+    }
+}
+console.log(output);
