@@ -24,5 +24,5 @@ const fullString = first.concat(second);
 console.log(fullString);
 
 const words2 = ['alim', 'badhon', 'chara'];
-const allJoined = words2.join('');
+const allJoined = words2.join(' ');
 console.log(allJoined);
