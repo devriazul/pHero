@@ -2,7 +2,7 @@ const anthem = "Amar sonar bangla ami tomay valobashi";
 const search = 'valo';
 
 const userInput = 'BlackPink';
-const savedUserName = 'blackPink';
+const savedUserName = 'blackpink';
 
 if (userInput.toLowerCase == savedUserName){
     console.log('user exist');
