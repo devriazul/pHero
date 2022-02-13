@@ -13,5 +13,7 @@ const sortReverseFriend = friends.sort().reverse();
 
 // number sorting fun
 const bigNumbers = [10, 20 ,2 , 5, 7, 99, 211];
-const sortBigNumbers = bigNumbers.sort();
+const sortBigNumbers = bigNumbers.sort(function(a,b){
+    return a - b;
+});
 console.log(sortBigNumbers);
