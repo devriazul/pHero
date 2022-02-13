@@ -1,8 +1,10 @@
 function addNumber(num1, num2){
     // console.log(arguments[1]);
+    let result = 0;
     for(const num of arguments){
-        sum = sum + num;
+        result = result + num;
     }
+    return result;
 }
-const sum = addNumber (23, 13, 100, 200);
-console.log(sum);
+const result = addNumber (23, 13, 100, 200);
+console.log(result);
