@@ -14,3 +14,8 @@ const anotherPart = anthem.substr(11, 7);
 // substring
 const anotherAnotherPart = anthem.substring(11, 15);
 console.log(anotherAnotherPart);
+
+// concat
+const first = 'amader';
+const second = 'city';
+const fullString = first + second;
