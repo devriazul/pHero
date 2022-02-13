@@ -1,7 +1,7 @@
 const numbers = [3,2,19,4,30,2,40,5,67,8,9];
 
 //slice
-const numberSliced = numbers.slice(4, 8);
+// const numberSliced = numbers.slice(4, 8);
 // console.log(numberSliced);
 // console.log(numbers);
 
@@ -10,4 +10,6 @@ const numberSliced = numbers.slice(4, 8);
 // console.log(numbers);
 // console.log(numberSpliced);
 
-const numberSliced2 = numbers.splice(4, 3, 99, 111, 888, 999);
+const numberSpliced2 = numbers.splice(4, 3, 99, 111, 888, 999);
+console.log(numberSpliced2);
+console.log(numbers);
