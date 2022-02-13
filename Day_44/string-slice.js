@@ -5,4 +5,8 @@ const withoutA = anthem.split('a')
 
 //slice
 const smallSlice = anthem.slice(5, 13);
-console.log(smallSlice);
+// console.log(smallSlice);
+
+// substr
+const anotherPart = anthem.substr(11, 7);
+console.log(anotherPart);
