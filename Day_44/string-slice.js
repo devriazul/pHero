@@ -9,4 +9,8 @@ const smallSlice = anthem.slice(5, 13);
 
 // substr
 const anotherPart = anthem.substr(11, 7);
-console.log(anotherPart);
+// console.log(anotherPart);
+
+// substring
+const anotherAnotherPart = anthem.substring(11, 15);
+console.log(anotherAnotherPart);
