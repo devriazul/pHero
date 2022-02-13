@@ -31,3 +31,4 @@ for(const product of products){
         output.push(product);
     }
 }
+console.log(output);
