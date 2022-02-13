@@ -32,3 +32,5 @@ for(const product of products){
     }
 }
 console.log(output);
+
+// endsWith
