@@ -1,4 +1,7 @@
 function megaFriend(friends){
+    if(Array.isArray(friends) == false){
+        return 'Provide an Array';
+    }
     let mega = friends[0];
     for(const friend of friends){
         if(friend.length > mega.length){
@@ -7,5 +10,5 @@ function megaFriend(friends){
     }return mega;
 }
 const friends = ['kutub', 'lion', 'shamol'];
-const myBigBuddy = megaFriend(friends);
+const myBigBuddy = megaFriend(123);
 console.log(myBigBuddy);
