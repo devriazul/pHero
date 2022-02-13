@@ -4,6 +4,6 @@ const search = 'valo';
 const userInput = 'BlackPink';
 const savedUserName = 'blackPink';
 
-if (userInput == savedUserName){
+if (userInput.toLowerCase == savedUserName){
     console.log('user exist');
 }
