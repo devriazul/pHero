@@ -23,6 +23,6 @@ const second = 'city';
 const fullString = first.concat(second);
 console.log(fullString);
 
-const words2 = ['a', 'b', 'c'];
+const words2 = ['alim', 'badhon', 'chara'];
 const allJoined = words.join('');
 console.log(allJoined);
