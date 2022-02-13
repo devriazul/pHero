@@ -15,7 +15,7 @@ const anotherPart = anthem.substr(11, 7);
 const anotherAnotherPart = anthem.substring(11, 15);
 console.log(anotherAnotherPart);
 
-// concat
+// concat string always immutable
 const first = 'amader';
 const second = 'city';
 const fullString = first + second;
