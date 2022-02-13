@@ -5,7 +5,9 @@ const numberSliced = numbers.slice(4, 8);
 // console.log(numberSliced);
 // console.log(numbers);
 
-//splice
-const numberSpliced = numbers.splice(4,2);
-console.log(numbers);
-console.log(numberSpliced);
+//splice to remove element from an array
+// const numberSpliced = numbers.splice(4,2);
+// console.log(numbers);
+// console.log(numberSpliced);
+
+const numberSliced2 = numbers.splice(4, 3, 99, 111, 888, 999);
