@@ -10,5 +10,5 @@ function megaFriend(friends){
     }return mega;
 }
 const friends = ['kutub', 'lion', 'shamol'];
-const myBigBuddy = megaFriend(123);
+const myBigBuddy = megaFriend(friends);
 console.log(myBigBuddy);
