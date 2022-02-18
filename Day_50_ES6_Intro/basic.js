@@ -17,3 +17,6 @@ else if(deposit >= 500){
 else if(deposit <= 500){
 
 }
+
+//array
+const characters = [a, b, c];
