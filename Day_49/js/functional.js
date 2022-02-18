@@ -13,17 +13,23 @@ function updateTotal(fieldId, amount){
     totalTag.innerText = newTotal;
     return newTotal;
 };
-function updateBalance(amount){
+function updateBalance(amount, isAdding){
     const balanceTag = document.getElementById('balance-total');
     const balanceInText = balanceTag.innerText;
     const previusBalance = parseFloat(balanceInText);
-    const newBalance = previusBalance + amount;
+    let newBalance; 
+    if(isAdding == true){
+        newBalance = previusBalance + amount;
+    }else{
+        newBalance = previusBalance - amount;
+    }
+    
     balanceTag.innerText = newBalance;
 };
 document.getElementById('deposit-button').addEventListener('click',function(){
     const amount = getInputValue('deposit-input');
     updateTotal('deposit-total', amount);
-    updateBalance(amount);
+    updateBalance(amount, true);
 });
 
 // handle withdraw
@@ -31,5 +37,5 @@ document.getElementById('deposit-button').addEventListener('click',function(){
 document.getElementById('withdraw-button').addEventListener('click',function(){
     const amount = getInputValue('withdraw-input');
     updateTotal('withdraw-total',amount);
-    updateBalance(amount);
+    updateBalance(amount,false);
 });
