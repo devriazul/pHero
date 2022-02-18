@@ -31,5 +31,11 @@ if (characters.indexOf(222) != -1){
 
 //option two for check
 if(characters.include(222)){
+
+}
+
+//loop
+//while, for loop
+for (const number of numbers){
     
 }
