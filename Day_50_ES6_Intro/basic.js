@@ -20,3 +20,4 @@ else if(deposit <= 500){
 
 //array
 const characters = [a, b, c];
+const numberCount = characters.length;
