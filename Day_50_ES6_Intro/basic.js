@@ -23,3 +23,13 @@ const characters = [a, b, c];
 const numberCount = characters.length;
 characters.push(d);
 characters[2]='e';
+
+//check wheteher include in array
+if (characters.indexOf(222) != -1){
+    console.log('found');
+}
+
+//option two for check
+if(characters.include(222)){
+    
+}
