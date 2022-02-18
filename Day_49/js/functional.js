@@ -5,8 +5,15 @@ function getInputValue(fieldId){
     inputField.value = '';
     return value;
 }
+function updateTotal(fieldId, amount){
+    const totalTag = document.getElementById(fieldId);
+    const previusTotalInText = totalTag.innerText;
+    const previusTotal = parseFloat(previusTotalInText);
+    const newTotal = previusTotal + amount;
+    totalTag.innerText = newTotal;
 
+}
 document.getElementById('deposit-button').addEventListener('click',function(){
     const amount = getInputValue('deposit-input');
-    console.log(amount);
+    updateTotal('deposit-total')
 });
