@@ -37,5 +37,11 @@ if(characters.include(222)){
 //loop
 //while, for loop
 for (const number of numbers){
-    
+
 }
+
+//function
+function fullName (first, second){
+    const name = first+' '+second;
+}
+const person = fullName ('Rahim', 'Riayaz');
