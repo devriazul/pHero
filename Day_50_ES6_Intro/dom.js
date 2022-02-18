@@ -8,3 +8,7 @@ const friends = document.getElementsByClassName('friend');
 for(const friend of friends){
     friend.style.backgroundColor = 'lightblue';
 }};
+
+document.getElementById('add-friend'){
+    
+}
