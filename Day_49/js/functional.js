@@ -15,5 +15,5 @@ function updateTotal(fieldId, amount){
 }
 document.getElementById('deposit-button').addEventListener('click',function(){
     const amount = getInputValue('deposit-input');
-    updateTotal('deposit-total')
+    updateTotal('deposit-total', amount)
 });
