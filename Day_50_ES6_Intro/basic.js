@@ -45,3 +45,5 @@ function fullName (first, second){
     const name = first+' '+second;
 }
 const person = fullName ('Rahim', 'Riayaz');
+
+//object
