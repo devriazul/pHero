@@ -47,3 +47,8 @@ function fullName (first, second){
 const person = fullName ('Rahim', 'Riayaz');
 
 //object
+const bottle = {
+    color: 'yellow',
+    contain: 'water',
+    price: 50
+}
