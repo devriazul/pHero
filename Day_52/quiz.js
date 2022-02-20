@@ -1,2 +1,2 @@
-const cube=x=> x*x*x; 
-console.log(cube(2))
+const [a, b] = [1,2,3,4,45,5]; 
+console.log(a+b);
