@@ -1,0 +1,135 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo img {
+    max-width: 400px;
+}
+
+#spinner {
+    text-align: center;
+    display: none;
+}
+
+span {
+    color: #0470d4;
+}
+
+.phone-counter {
+    display: inline;
+    float: right;
+    background-color: #0470d4;
+    color: #fff;
+    padding: 10px;
+    line-height: 10px;
+    border: 0;
+    border-radius: 20px;
+}
+
+#phones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#phones div {
+    margin: 20px;
+    padding: 30px 20px;
+    border: 1px solid #0470d4;
+    border-radius: 20px;
+    transition: box-shadow 0.5s;
+    box-shadow: 0 0 5px 3px #0470d459;
+}
+
+#phones div:hover {
+    box-shadow: 0 0 5px 6px #0470d459;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#search-input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 0;
+    margin: 5px 0;
+    max-width: 150px;
+}
+
+#search-submit {
+    padding: 8px 16px;
+    border: 0;
+    background: #fff;
+    margin: 5px 0;
+}
+
+.search-area {
+    background-color: #0470d4;
+    padding: 20px 0;
+    margin: 20px 25% 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px #e4e4e446;
+}
+
+#reset {
+    padding: 4px 10px;
+    background: #0470d4;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+#modal-body {
+    text-align: center;
+}
+
+#modal-body ul,
+#modal-body h5 {
+    text-align: left;
+}
+
+#modal-body span {
+    font-weight: bold;
+}
+
+#modal-body img {
+    margin: 20px 0;
+}
+
+
+/* Media Quaries */
+
+@media screen and (max-width: 1000px) {
+    #phones {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #phones div {
+        margin: 15px;
+        padding: 10px;
+    }
+    .search-area {
+        margin: 20px 15% 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo img {
+        max-width: 280px;
+    }
+    #phones {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #phones div {
+        margin: 10px;
+        padding: 30px 20px;
+    }
+    .search-area {
+        margin: 20px 5% 0;
+    }
+}

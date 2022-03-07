@@ -1,0 +1,264 @@
+body {
+    background-color: #ecf0f3;
+}
+
+
+/* nav item style  */
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #ecf0f3;
+    text-shadow: -2px -5px 4px #c1c1c1, 4px 4px 4px #ffffff;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.bi-youtube:hover {
+    color: red;
+}
+
+.bi-github:hover {
+    color: #25292e;
+}
+
+.bi-whatsapp:hover {
+    color: #63d843;
+}
+
+
+/* header area style  */
+
+header {
+    margin: 10vh 0;
+}
+
+header h1 {
+    font-size: 80px;
+    color: #ecf0f3;
+    text-shadow: -2px -5px 4px #c1c1c1, 5px 4px 4px #ffffff;
+}
+
+
+/* search area style start from here  */
+
+#phoneInput {
+    background: #ecf0f3;
+    color: #ff014f;
+    padding: 10px 0px;
+    font-size: 24px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: inset 7px 8px 10px #c1c1c1, inset -7px -8px 10px #ffffff;
+}
+
+*::-webkit-input-placeholder {
+    color: #c1c1c195;
+}
+
+input:focus {
+    outline: 0px solid red;
+}
+
+input {
+    text-align: center;
+}
+
+#submit {
+    height: 60px;
+    border-radius: 10px;
+    background: #ecf0f3;
+    box-shadow: 6px 5px 10px #c1c1c1, -6px -5px 10px #ffffff;
+}
+
+#submit i {
+    color: #ff014f;
+    text-shadow: -2px -2px 5px #c1c1c1, -4px 4px 4px #ffffff;
+    font-size: 25px;
+}
+
+
+/* search area style ended */
+
+
+/* flip card design start from here  */
+
+.card-container {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: 0.6s ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    /* perspective: 3000px; */
+}
+
+.card .row {
+    transform: translateZ(100px);
+    text-shadow: crimson;
+    /* background-color: aqua; */
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.front {
+    background-color: #ecf0f3;
+    box-shadow: 6px 5px 10px #c1c1c1, -6px -5px 10px #ffffff;
+}
+
+.back {
+    background-color: #ecf0f3;
+    box-shadow: 6px 5px 10px #c1c1c1, -6px -5px 10px #ffffff;
+    transform: rotateY(180deg);
+}
+
+.card-container:hover .front {
+    transform: rotateY(180deg);
+}
+
+.card-container:hover .back {
+    transform: rotateY(360deg);
+}
+
+
+/* flip card extra style for dyanamic text */
+
+.front .row,
+.back .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card button {
+    border: 2px solid red;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background-color: #ff014f;
+    color: #fff;
+}
+
+.dyanamic-text-color {
+    color: #ff014f;
+}
+
+
+/* flip card style end here  */
+
+
+/* details info style start*/
+
+#details hr {
+    background-color: #ff014f;
+    height: 1px;
+    border: 0;
+    opacity: 1;
+}
+
+#details ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#details i {
+    font-size: 30px;
+}
+
+#details li {
+    position: relative;
+}
+
+#details span {
+    position: absolute;
+    top: 0;
+}
+
+#details i,
+span,
+h2,
+h4 {
+    color: #ff014f;
+}
+
+#details strong {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.main-info {
+    box-shadow: 6px 5px 10px #c1c1c1, -6px -5px 10px #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    position: relative;
+}
+
+#close-btn {
+    width: 20px;
+    position: absolute;
+    top: 0;
+    left: 95%;
+    cursor: pointer;
+    transition: 0.4s;
+    color: steelblue !important;
+}
+
+#close-btn:hover {
+    color: #ff014f !important;
+}
+
+
+/* details info style ended*/
+
+
+/* see more btn  */
+
+.show-more {
+    box-shadow: 6px 5px 10px #c1c1c1, -6px -5px 10px #ffffff;
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.show-more i {
+    font-size: 60px;
+    color: #ff014f;
+    text-shadow: -3px -4px 4px #c1c1c1, 6px 3px 4px #ffffff;
+}
+
+.show-more>div {
+    transition: 0.3s;
+}
+
+.show-more:hover>div {
+    transform: rotate(90deg);
+}
+
+
+/* Resposived Design  */
+
+@media only screen and (max-width: 1000px) {
+    /*Tablets [601px -> 960px]*/
+    .card-container {
+        height: 400px;
+    }
+}

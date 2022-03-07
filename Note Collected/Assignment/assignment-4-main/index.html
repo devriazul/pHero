@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Header and Menu Section-->
+    <header class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a class="active" href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Booking Section-->
+    <main id="main-booking" class="main-content container">
+        <div class="booking-form">
+            <h3>Booking Flights</h3>
+            <div class="input-group">
+                <label for="">Flying From</label>
+                <input class="inp-style" type="text" name="" placeholder="Dhake, Bangladesh">
+            </div>
+            <div class="input-group">
+                <label for="">Flying To</label>
+                <input class="inp-style" type="text" name="" placeholder="New York, United States">
+            </div>
+            <div class="inputs">
+                <div class="input-group">
+                    <label" for="">Departure</label>
+                        <input class="inp-style" type="date" name="">
+                </div>
+                <div class="input-group">
+                    <label for="">Return</label>
+                    <input class="inp-style" type="date" name="">
+                </div>
+            </div>
+            <div class="input-group f-class">
+                <div>
+                    <label for="">First Class ($150)</label>
+                    <input id="ticket-number" class="inp-style inp-width" value="0">
+                </div>
+                <div class="plus-minus-btn">
+                    <button id="increase-button" class="plus">+</button>
+                    <button id="decrease-button" class="minus">-</button>
+                </div>
+            </div>
+
+            <div class="input-group f-class">
+                <div>
+                    <label for="">Economy ($100)</label>
+                    <input id="ticket-number2" class="inp-style inp-width" value="0">
+                </div>
+                <div class="plus-minus-btn">
+                    <button id="increase-button2" class="plus">+</button>
+                    <button id="decrease-button2" class="minus">-</button>
+                </div>
+            </div>
+            <div class="calculations">
+                <div class="amount">
+                    <div class="left">
+                        <p>Subtotal</p>
+                    </div>
+                    <div class="right">
+                        <p id="sub-total">$00</p>
+                    </div>
+                </div>
+
+                <div class="amount">
+                    <div class="left">
+                        <p>Charge 10% VAT</p>
+                    </div>
+                    <div class="right">
+                        <p id="tax-amount">$00</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="amount">
+                    <div class="left">
+                        <h4>Total</h4>
+                    </div>
+                    <div class="right">
+                        <p id="grand-total">$00</p>
+                    </div>
+                </div>
+            </div>
+            <button id="book-success" class="btn-style">Book Now</button>
+        </div>
+        <section>
+            <div class="booking-content">
+                <h1>discover <br> around the world</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicingelit. Provident voluptatibus quam fuga laborumalias
+                    veniam libero autem quasi maxime ullam vero nama imi dolor, architecto ab facilis eaque deserunt
+                    nobise
+                    voluptatibus quam</p>
+            </div>
+        </section>
+        <!--Thank You-->
+    
+
+    <script>
+        const increaseBtn = document.getElementById('increase-button');
+        increaseBtn.addEventListener('click', function () {
+            increaseDecrease(true);
+        })
+        const decreaseBtn = document.getElementById('decrease-button');
+        decreaseBtn.addEventListener('click', function () {
+            increaseDecrease(false);
+        })
+        //is a increase or decrease function 1
+        function increaseDecrease(isIncrease) {
+            const ticketCount = document.getElementById('ticket-number');
+            let ticketCountNumber = parseInt(ticketCount.value);
+            // const ticketNumber = ticketCountNumber + 1;
+            if (isIncrease == true) {
+                ticketNumber = ticketCountNumber + 1;
+            }
+            else if (isIncrease == false && ticketCountNumber > 0) {
+                ticketNumber = ticketCountNumber - 1;
+            }
+            ticketCount.value = ticketNumber;
+            calculateTotal();
+        }
+
+        const increaseBtn2 = document.getElementById('increase-button2');
+        increaseBtn2.addEventListener('click', function () {
+            increaseDecrease2(true);
+        })
+        const decreaseBtn2 = document.getElementById('decrease-button2');
+        decreaseBtn2.addEventListener('click', function () {
+            increaseDecrease2(false);
+        })
+        //is a increase or decrease function 2
+        function increaseDecrease2(isIncrease) {
+            const ticketCount2 = document.getElementById('ticket-number2');
+            let ticketCountNumber2 = parseInt(ticketCount2.value);
+            /// const ticketNumber = ticketCountNumber + 1;
+            if (isIncrease == true) {
+                ticketNumber2 = ticketCountNumber2 + 1;
+            }
+            else if (isIncrease == false && ticketCountNumber2 > 0) {
+                ticketNumber2 = ticketCountNumber2 - 1;
+            }
+            ticketCount2.value = ticketNumber2;
+            calculateTotal();
+        }
+
+        function calculateTotal() {
+            const ticketInput = document.getElementById('ticket-number');
+            const ticketTotal = parseInt(ticketInput.value);
+
+            const ticketInput2 = document.getElementById('ticket-number2');
+            const ticketTotal2 = parseInt(ticketInput2.value);
+            /// Sub Total Calculation area
+            const subTotal = ticketTotal * 150 + ticketTotal2 * 100;
+            document.getElementById('sub-total').innerText = '$' + subTotal;
+            /// Tax calculation area
+            const taxAmount = subTotal * 0.1;
+            document.getElementById('tax-amount').innerText = '$' + taxAmount;
+            /// Grand Total Calculation area
+            const grandTotal = subTotal + taxAmount;
+            document.getElementById('grand-total').innerText = '$' + grandTotal;
+        }
+        
+    </script>
+</body>
+
+</html>
