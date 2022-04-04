@@ -1,0 +1,13 @@
+.cart{
+    position: sticky;
+    top: 70px;
+    margin: 0 auto;
+    width: 290px;
+    height: 80vh;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.cart h3{
+    margin-top: 5px;
+    text-align: center;
+}
