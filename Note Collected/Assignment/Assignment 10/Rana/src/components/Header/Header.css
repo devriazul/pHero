@@ -1,0 +1,15 @@
+.signup-btn {
+  background: rgb(255, 238, 232) !important ;
+  transition: .4s !important;
+  font-size: 20px !important;
+}
+.login-btn{
+    background-color: rgb(255, 102, 54) !important;
+    color: white !important;
+    font-size: 20px !important;
+    transition: .4s !important;
+}
+.signup-btn:hover, .login-btn:hover {
+    background-color: #d43100 !important;
+}
+

@@ -1,0 +1,29 @@
+.banner{
+    background: rgb(240, 242, 245);
+}
+.banner h1{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 74px;
+    color: rgb(29, 32, 38);
+}
+.banner h4{
+    font-size: 32px;
+    color: rgb(78, 85, 102);
+}
+.banner Button{
+    font-size: 20px;
+    background-color: #ff6636;
+}
+.banner Button:hover{
+    background-color: rgb(190, 65, 27);
+}
+/* .banner-pik{
+    height: 553px;
+    position: relative;
+    left: 5px;
+    clip-path: polygon(20% 0%, 100% 0px, 100% 100%, 0px 130%);
+} */
+.orange{
+    color: #ff6636;
+}
