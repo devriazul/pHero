@@ -1,0 +1,7 @@
+.countUp{
+    background-image: url("./../../img/business-idea-concept-with-people_52683-28609.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}

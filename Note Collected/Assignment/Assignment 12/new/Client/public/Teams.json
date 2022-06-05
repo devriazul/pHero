@@ -1,0 +1,42 @@
+[
+  {
+    "id":"1",
+    "name": "swdRana",
+    "deg": "Founder / CEO",
+    "photo":"https://i.ibb.co/qgght5q/Masuduzzaman-Transparent-BG.png",
+    "facebook": "https://facebook.com/swdrana",
+    "twitter": "https://twitter.com/swdrana",
+    "linkedin": "https://www.linkedin.com/in/swdrana/",
+    "instagram": "https://www.instagram.com/swdrana/"
+  },
+  {
+    "id":"2",
+    "name": "Andy",
+    "deg": "Co Worker",
+    "photo":"https://i.ibb.co/rbCKP72/image.png",
+    "facebook": "https://facebook.com/swdrana",
+    "twitter": "https://twitter.com/swdrana",
+    "linkedin": "https://www.linkedin.com/in/swdrana/",
+    "instagram": "https://www.instagram.com/swdrana/"
+  },
+  {
+    "id":"3",
+    "name": "Jon Smith",
+    "deg": "Officer",
+    "photo":"https://i.ibb.co/c3JD3Ry/image.png",
+    "facebook": "https://facebook.com/swdrana",
+    "twitter": "https://twitter.com/swdrana",
+    "linkedin": "https://www.linkedin.com/in/swdrana/",
+    "instagram": "https://www.instagram.com/swdrana/"
+  },
+  {
+    "id":"4",
+    "name": "Long Tharang",
+    "deg": "Manager",
+    "photo":"https://i.ibb.co/fS3ch25/image.png",
+    "facebook": "https://facebook.com/swdrana",
+    "twitter": "https://twitter.com/swdrana",
+    "linkedin": "https://www.linkedin.com/in/swdrana/",
+    "instagram": "https://www.instagram.com/swdrana/"
+  }
+]

@@ -1,0 +1,155 @@
+.services-container-wrapper {
+    padding-top: 100px !important;
+    padding-bottom: 67px !important;
+    background-image: url(https://transpress.zooka.io/wp-content/uploads/2016/09/home-service-bg.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.fancy-icon {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+    height: 170px;
+}
+
+.flex-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.services-tittle {
+    font-weight: 700;
+}
+
+.services-tittle::before {
+    content: 'OUR SERVICES';
+    border-bottom: 4px solid #0FAF97;
+    margin-top: 7px;
+
+}
+
+.flex-co {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: row;
+    color: #0a0a0a !important;
+}
+
+.bg-guide {
+    background-color: #fef60f;
+    width: 100% !important;
+
+}
+
+@media only screen and (max-width:576px) {
+    .fancy-icon {
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 25px;
+        height: auto;
+    }
+
+    .fancy-icons {
+        border-radius: 50%;
+        padding: 18px;
+        background-color: none;
+        margin-right: 18px;
+    }
+}
+
+.fancy-icons {
+    border-radius: 50%;
+    margin-right: 12px;
+    padding: 18px;
+    background-color: rgba(194, 187, 187, 0.3);
+}
+
+.fancy-icon:hover h1 {
+    background-color: #0FAF97;
+}
+
+.fancy-icon:hover h5 {
+    color: #0FAF97;
+}
+
+.services-items {
+    color: #0a0a0a;
+    font-weight: 700;
+}
+
+.cta2 {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    text-decoration: none !important;
+}
+
+.cta2:hover:before {
+    width: 100%;
+    background: #e7e7e7 !important;
+    color: #e49d2b !important;
+}
+
+.cta2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #c7efe9f1;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta2 span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.cta2 svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta2:hover:before {
+    width: 100%;
+    background: #0FAF97;
+}
